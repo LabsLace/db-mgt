@@ -39,7 +39,7 @@
 
 #               console.log(daysDiff)
 
-#               if (daysDiff > 1) {
+#               if (daysDiff > 30) {
 #                 await github.rest.pulls.update({
 #                   owner: context.repo.owner,
 #                   repo: context.repo.repo,
@@ -49,3 +49,10 @@
 #               }
 #             }
 
+# PAT: Personal access tokens
+# - No te dan permisos como muy granulares
+# - Tiene acceso al repo
+
+# Fine grained token (BETA)
+# - Puedo escribir pero no puedo cambiar acciones.
+# - 

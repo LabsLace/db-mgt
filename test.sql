@@ -1,0 +1,1 @@
+SELECT * FROM shema_1.table_2 order by created_tms desc;
